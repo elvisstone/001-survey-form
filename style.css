@@ -36,17 +36,8 @@ div.container .header{
     font-size: 2.5rem;
 }
 
-#title::first-letter{
-    font-size: 3rem;
-}
-
 span{
     color: red;
-}
-
-#title span::first-letter{
-    border: 1px solid green;
-    font-variant: small-caps;
 }
 
 #description{
