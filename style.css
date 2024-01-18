@@ -5,20 +5,12 @@
     font-family: sans-serif;
 }
 
-/* span{
-    color: red;
-} */
-
 body{
-    /* width: 100vw; */
-    /* height: 100vh; */
     background-image: url(/img/background_image.jpg);
 }
 
 div.container{
     display: flex;
-    /* width: 95vw; */
-    /* height: 95vh; */
     margin: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
@@ -27,22 +19,37 @@ div.container{
 
 div.container .header{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
     color: white;
 }
 
 #title{
     font-size: 2.5rem;
+    font-weight: 900;
+}
+
+#title::first-letter{
+    font-size: 3rem;
 }
 
 span{
+    display: inline-block;
     color: red;
 }
 
+#title span:first-letter {
+    font-size: 1.2em;
+}
+
 #description{
+    width: 100%;
+    text-align: center;
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: white;
 }
 
 .form-div{
@@ -150,16 +157,6 @@ span{
     margin-top: 5px;
     color: white;
 }
-
-/* input#checkbox-comedy{
-    margin-top: 5px;
-}
-input#checkbox-action{
-    margin-top: 5px;
-}
-input#checkbox-romance{
-    margin-top: 5px;
-} */
 
 .radio-field{
     display: flex;
